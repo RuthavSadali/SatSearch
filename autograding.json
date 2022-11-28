@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Best Score",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_sat.py::TestJSON::test_best_score",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Best Small Score",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_sat.py::TestJSON::test_best_score_small",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Most Tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_sat.py::TestJSON::test_most_tests",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "X Most Tests",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_sat.py::TestJSON::test_x_most_tests",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "X Highest Scores",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_sat.py::TestJSON::test_x_highest_scores",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 40
+    }
+  ]
+}
